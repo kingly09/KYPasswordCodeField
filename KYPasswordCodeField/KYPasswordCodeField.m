@@ -28,8 +28,6 @@
 #import "KYPasswordCodeField.h"
 #import <Foundation/Foundation.h>
 
-
-
 #define Space 5
 #define LineWidth (self.frame.size.width - lineNum * 2 * Space)/lineNum
 #define LineHeight 2
@@ -311,7 +309,7 @@
 
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    switch (_codeType) {
+    switch (_passwordCodeFieldType) {
         case KYPasswordCodeFieldTypeCustom:
         {
             //画字
