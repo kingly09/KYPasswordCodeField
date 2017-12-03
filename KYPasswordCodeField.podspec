@@ -23,9 +23,9 @@ s.homepage     = "https://github.com/kingly09/KYPasswordCodeField"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "kingly" => "libintm@163.com" }
 s.platform     = :ios, "7.0"
-s.source       = { :git => "https://github.com/kingly09/KYBarrageKit.git", :tag => s.version.to_s }
+s.source       = { :git => "https://github.com/kingly09/KYPasswordCodeField.git", :tag => s.version.to_s }
 s.social_media_url   = "https://github.com/kingly09"
-s.source_files = 'KYPasswordCodeField/*.{h,m}'
+s.source_files = 'KYPasswordCodeField/**/*'
 s.frameworks   = "UIKit","Foundation"
 s.requires_arc = true
 
