@@ -27,8 +27,7 @@
 #import "ViewController.h"
 #import "KYPasswordCodeField.h"
 
-@interface ViewController ()
-
+@interface ViewController () 
 @end
 
 @implementation ViewController
@@ -48,7 +47,8 @@
                    @"普通，输入后下划线显示，闪烁",
                    @"密码",
                    @"密码，分割线",
-                   @"密码，输入后下划线显示，闪烁",];
+                   @"密码，输入后下划线显示，闪烁",
+                   @"普通，输入后下划线显示，闪烁，没有边框",];
   for (NSInteger i = 0; i < arr.count; i ++) {
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 30 + 110 * i, self.view.frame.size.width, 40)];
@@ -118,7 +118,7 @@
         //下划线
         v.hasUnderLine = NO;
         //分割线
-        v.hasSpaceLine = YES;
+        v.hasSpaceLine = NO;
         
         //输入风格
         v.passwordCodeFieldType = KYPasswordCodeFieldTypeSecret;
@@ -135,6 +135,19 @@
         v.noInputAni = YES;
         //输入风格
         v.passwordCodeFieldType = KYPasswordCodeFieldTypeSecret;
+      }
+         break;
+      case 6:
+      {
+        //下划线
+        v.inputAfterUnderLineShow = YES;
+        //没有边框
+        v.noBorder = YES;
+        //闪烁
+        v.underLineAnimation = YES;
+        v.noInputAni = YES;
+        //输入风格
+        v.passwordCodeFieldType = KYPasswordCodeFieldTypeCustom;
       }
          break;
       default:

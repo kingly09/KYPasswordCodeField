@@ -157,12 +157,16 @@
 }
 
 -(void)setNoBorder:(BOOL)noBorder {
-   
-   _noBorder  =  noBorder;
-   if (noBorder) {
-      self.hasSpaceLine = NO;
+  
+  _noBorder  =  noBorder;
+  if (noBorder) {
+    self.hasSpaceLine = NO;
+    borderWidth = 0;
+    self.layer.borderColor = [UIColor clearColor].CGColor;
+    self.layer.borderWidth = borderWidth;
+    
   }
-
+  
 }
 
 
