@@ -101,6 +101,7 @@
 		BC62E7861FD4032A008B4B6B /* KYPasswordCodeFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC62E7B91FD4041D008B4B6B /* KYPasswordCodeField */,
 				BC62E7871FD4032A008B4B6B /* AppDelegate.h */,
 				BC62E7881FD4032A008B4B6B /* AppDelegate.m */,
 				BC62E78A1FD4032A008B4B6B /* ViewController.h */,
@@ -130,6 +131,14 @@
 				BC62E7AD1FD4032B008B4B6B /* Info.plist */,
 			);
 			path = KYPasswordCodeFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC62E7B91FD4041D008B4B6B /* KYPasswordCodeField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = KYPasswordCodeField;
+			path = ../../KYPasswordCodeField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
