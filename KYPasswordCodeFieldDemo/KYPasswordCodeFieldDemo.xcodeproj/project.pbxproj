@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC62E7891FD4032A008B4B6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7881FD4032A008B4B6B /* AppDelegate.m */; };
+		BC62E78C1FD4032A008B4B6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E78B1FD4032A008B4B6B /* ViewController.m */; };
+		BC62E78F1FD4032A008B4B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62E78D1FD4032A008B4B6B /* Main.storyboard */; };
+		BC62E7911FD4032A008B4B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC62E7901FD4032A008B4B6B /* Assets.xcassets */; };
+		BC62E7941FD4032A008B4B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62E7921FD4032A008B4B6B /* LaunchScreen.storyboard */; };
+		BC62E7971FD4032A008B4B6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7961FD4032A008B4B6B /* main.m */; };
+		BC62E7A11FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7A01FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m */; };
+		BC62E7AC1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7AB1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC62E79D1FD4032A008B4B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC62E77C1FD4032A008B4B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC62E7831FD4032A008B4B6B;
+			remoteInfo = KYPasswordCodeFieldDemo;
+		};
+		BC62E7A81FD4032B008B4B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC62E77C1FD4032A008B4B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC62E7831FD4032A008B4B6B;
+			remoteInfo = KYPasswordCodeFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC62E7841FD4032A008B4B6B /* KYPasswordCodeFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYPasswordCodeFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62E7871FD4032A008B4B6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC62E7881FD4032A008B4B6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC62E78A1FD4032A008B4B6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC62E78B1FD4032A008B4B6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC62E78E1FD4032A008B4B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC62E7901FD4032A008B4B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC62E7931FD4032A008B4B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC62E7951FD4032A008B4B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC62E7961FD4032A008B4B6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC62E79C1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYPasswordCodeFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62E7A01FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYPasswordCodeFieldDemoTests.m; sourceTree = "<group>"; };
+		BC62E7A21FD4032A008B4B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC62E7A71FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYPasswordCodeFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62E7AB1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYPasswordCodeFieldDemoUITests.m; sourceTree = "<group>"; };
+		BC62E7AD1FD4032B008B4B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC62E7811FD4032A008B4B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62E7991FD4032A008B4B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62E7A41FD4032B008B4B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC62E77B1FD4032A008B4B6B = {
+			isa = PBXGroup;
+			children = (
+				BC62E7861FD4032A008B4B6B /* KYPasswordCodeFieldDemo */,
+				BC62E79F1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests */,
+				BC62E7AA1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests */,
+				BC62E7851FD4032A008B4B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC62E7851FD4032A008B4B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC62E7841FD4032A008B4B6B /* KYPasswordCodeFieldDemo.app */,
+				BC62E79C1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.xctest */,
+				BC62E7A71FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC62E7861FD4032A008B4B6B /* KYPasswordCodeFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC62E7871FD4032A008B4B6B /* AppDelegate.h */,
+				BC62E7881FD4032A008B4B6B /* AppDelegate.m */,
+				BC62E78A1FD4032A008B4B6B /* ViewController.h */,
+				BC62E78B1FD4032A008B4B6B /* ViewController.m */,
+				BC62E78D1FD4032A008B4B6B /* Main.storyboard */,
+				BC62E7901FD4032A008B4B6B /* Assets.xcassets */,
+				BC62E7921FD4032A008B4B6B /* LaunchScreen.storyboard */,
+				BC62E7951FD4032A008B4B6B /* Info.plist */,
+				BC62E7961FD4032A008B4B6B /* main.m */,
+			);
+			path = KYPasswordCodeFieldDemo;
+			sourceTree = "<group>";
+		};
+		BC62E79F1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC62E7A01FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m */,
+				BC62E7A21FD4032A008B4B6B /* Info.plist */,
+			);
+			path = KYPasswordCodeFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		BC62E7AA1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC62E7AB1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m */,
+				BC62E7AD1FD4032B008B4B6B /* Info.plist */,
+			);
+			path = KYPasswordCodeFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC62E7831FD4032A008B4B6B /* KYPasswordCodeFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62E7B01FD4032B008B4B6B /* Build configuration list for PBXNativeTarget "KYPasswordCodeFieldDemo" */;
+			buildPhases = (
+				BC62E7801FD4032A008B4B6B /* Sources */,
+				BC62E7811FD4032A008B4B6B /* Frameworks */,
+				BC62E7821FD4032A008B4B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYPasswordCodeFieldDemo;
+			productName = KYPasswordCodeFieldDemo;
+			productReference = BC62E7841FD4032A008B4B6B /* KYPasswordCodeFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC62E79B1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62E7B31FD4032B008B4B6B /* Build configuration list for PBXNativeTarget "KYPasswordCodeFieldDemoTests" */;
+			buildPhases = (
+				BC62E7981FD4032A008B4B6B /* Sources */,
+				BC62E7991FD4032A008B4B6B /* Frameworks */,
+				BC62E79A1FD4032A008B4B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC62E79E1FD4032A008B4B6B /* PBXTargetDependency */,
+			);
+			name = KYPasswordCodeFieldDemoTests;
+			productName = KYPasswordCodeFieldDemoTests;
+			productReference = BC62E79C1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC62E7A61FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62E7B61FD4032B008B4B6B /* Build configuration list for PBXNativeTarget "KYPasswordCodeFieldDemoUITests" */;
+			buildPhases = (
+				BC62E7A31FD4032B008B4B6B /* Sources */,
+				BC62E7A41FD4032B008B4B6B /* Frameworks */,
+				BC62E7A51FD4032B008B4B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC62E7A91FD4032B008B4B6B /* PBXTargetDependency */,
+			);
+			name = KYPasswordCodeFieldDemoUITests;
+			productName = KYPasswordCodeFieldDemoUITests;
+			productReference = BC62E7A71FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC62E77C1FD4032A008B4B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KY;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "KYPasswordCodeField Software (https://github.com/kingly09/KYPasswordCodeField ) by kingly inc.  \n\n//\n// Permission is hereby granted, free of charge, to any person obtaining a copy\n// of this software and associated documentation files (the \"Software\"), to deal\n// in the Software without restriction, including without limitation the rights\n// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n// copies of the Software, and to permit persons to whom the Software is\n// furnished to do so, subject to the following conditions:\n//\n// The above copyright notice and this permission notice shall be included in\n// all copies or substantial portions of the Software.\n//\n// THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n// THE SOFTWARE.";
+				TargetAttributes = {
+					BC62E7831FD4032A008B4B6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BC62E79B1FD4032A008B4B6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC62E7831FD4032A008B4B6B;
+					};
+					BC62E7A61FD4032B008B4B6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC62E7831FD4032A008B4B6B;
+					};
+				};
+			};
+			buildConfigurationList = BC62E77F1FD4032A008B4B6B /* Build configuration list for PBXProject "KYPasswordCodeFieldDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC62E77B1FD4032A008B4B6B;
+			productRefGroup = BC62E7851FD4032A008B4B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC62E7831FD4032A008B4B6B /* KYPasswordCodeFieldDemo */,
+				BC62E79B1FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests */,
+				BC62E7A61FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC62E7821FD4032A008B4B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62E7941FD4032A008B4B6B /* LaunchScreen.storyboard in Resources */,
+				BC62E7911FD4032A008B4B6B /* Assets.xcassets in Resources */,
+				BC62E78F1FD4032A008B4B6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62E79A1FD4032A008B4B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62E7A51FD4032B008B4B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC62E7801FD4032A008B4B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62E78C1FD4032A008B4B6B /* ViewController.m in Sources */,
+				BC62E7971FD4032A008B4B6B /* main.m in Sources */,
+				BC62E7891FD4032A008B4B6B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62E7981FD4032A008B4B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62E7A11FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62E7A31FD4032B008B4B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62E7AC1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC62E79E1FD4032A008B4B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC62E7831FD4032A008B4B6B /* KYPasswordCodeFieldDemo */;
+			targetProxy = BC62E79D1FD4032A008B4B6B /* PBXContainerItemProxy */;
+		};
+		BC62E7A91FD4032B008B4B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC62E7831FD4032A008B4B6B /* KYPasswordCodeFieldDemo */;
+			targetProxy = BC62E7A81FD4032B008B4B6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC62E78D1FD4032A008B4B6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC62E78E1FD4032A008B4B6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC62E7921FD4032A008B4B6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC62E7931FD4032A008B4B6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC62E7AE1FD4032B008B4B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC62E7AF1FD4032B008B4B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC62E7B11FD4032B008B4B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V446K9WVQL;
+				INFOPLIST_FILE = KYPasswordCodeFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.KYPasswordCodeFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC62E7B21FD4032B008B4B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V446K9WVQL;
+				INFOPLIST_FILE = KYPasswordCodeFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.KYPasswordCodeFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC62E7B41FD4032B008B4B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V446K9WVQL;
+				INFOPLIST_FILE = KYPasswordCodeFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.KYPasswordCodeFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYPasswordCodeFieldDemo.app/KYPasswordCodeFieldDemo";
+			};
+			name = Debug;
+		};
+		BC62E7B51FD4032B008B4B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V446K9WVQL;
+				INFOPLIST_FILE = KYPasswordCodeFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.KYPasswordCodeFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYPasswordCodeFieldDemo.app/KYPasswordCodeFieldDemo";
+			};
+			name = Release;
+		};
+		BC62E7B71FD4032B008B4B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V446K9WVQL;
+				INFOPLIST_FILE = KYPasswordCodeFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.KYPasswordCodeFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYPasswordCodeFieldDemo;
+			};
+			name = Debug;
+		};
+		BC62E7B81FD4032B008B4B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V446K9WVQL;
+				INFOPLIST_FILE = KYPasswordCodeFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingly09.KYPasswordCodeFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYPasswordCodeFieldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC62E77F1FD4032A008B4B6B /* Build configuration list for PBXProject "KYPasswordCodeFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62E7AE1FD4032B008B4B6B /* Debug */,
+				BC62E7AF1FD4032B008B4B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC62E7B01FD4032B008B4B6B /* Build configuration list for PBXNativeTarget "KYPasswordCodeFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62E7B11FD4032B008B4B6B /* Debug */,
+				BC62E7B21FD4032B008B4B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC62E7B31FD4032B008B4B6B /* Build configuration list for PBXNativeTarget "KYPasswordCodeFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62E7B41FD4032B008B4B6B /* Debug */,
+				BC62E7B51FD4032B008B4B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC62E7B61FD4032B008B4B6B /* Build configuration list for PBXNativeTarget "KYPasswordCodeFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62E7B71FD4032B008B4B6B /* Debug */,
+				BC62E7B81FD4032B008B4B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC62E77C1FD4032A008B4B6B /* Project object */;
+}
