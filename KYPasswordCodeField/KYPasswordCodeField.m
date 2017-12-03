@@ -27,7 +27,7 @@
 
 #import "KYPasswordCodeField.h"
 #import <Foundation/Foundation.h>
-
+#define KY_SCALE ([UIScreen mainScreen].scale)
 #define Space 5
 #define LineWidth (self.frame.size.width - lineNum * 2 * Space)/lineNum
 #define LineHeight 2
@@ -78,6 +78,7 @@
     UIColor *linecolor;
     UIColor *textcolor;
     UIFont *textFont;
+    float  borderWidth;  //竖线的边框 和 竖线的宽度
     
     //观察者
     NSObject *observer;
@@ -105,9 +106,11 @@
         //数字样式是的颜色和线条颜色相同
         linecolor = textcolor = lColor;
         
-        self.layer.borderWidth = 1;
-        self.layer.borderColor = lColor.CGColor;
+        borderWidth = 1;
         
+        self.layer.borderColor = linecolor.CGColor;
+        self.layer.borderWidth = borderWidth;
+  
         textFont = [UIFont boldSystemFontOfSize:font];
         
         
@@ -117,6 +120,8 @@
         
         _underLineAnimation = NO;
         _emptyEditEnd = NO;
+        _inputAfterUnderLineShow = NO;
+        
         //设置的字体高度小于self的高
         NSAssert(textFont.lineHeight < self.frame.size.height, @"设置的字体高度应该小于self的高");
         
@@ -151,6 +156,15 @@
     }
 }
 
+-(void)setNoBorder:(BOOL)noBorder {
+   
+   _noBorder  =  noBorder;
+   if (noBorder) {
+      self.hasSpaceLine = NO;
+  }
+
+}
+
 
 #pragma mark - 添加通知
 - (void)addNotification {
@@ -180,7 +194,7 @@
         
         [self addUnderLineAnimation];
 
-
+      
         
         if (length == lineNum && self.EndEditBlcok) {
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -215,13 +229,25 @@
 
 #pragma mark - 下划线是否隐藏
 - (void)underLineHidden {
-    if (_hasUnderLine) {
-        //判断底部的view隐藏还是显示
-        for (NSInteger i = 0; i < lineNum; i ++) {
-            CAShapeLayer *obj = [_underlineArr objectAtIndex:i];
-            obj.hidden = i < textArray.count;
-        }
+  if (_hasUnderLine) {
+    //判断底部的view隐藏还是显示
+    for (NSInteger i = 0; i < lineNum; i ++) {
+      CAShapeLayer *obj = [_underlineArr objectAtIndex:i];
+      
+      if (_inputAfterUnderLineShow) {
+        obj.hidden = NO;
+        
+      }else{
+        obj.hidden = i < textArray.count;
+      }
     }
+    
+    if (_inputAfterUnderLineShow) {
+      
+      [self addUnderLineAnimation];
+      
+    }
+  }
 }
 
 
@@ -312,9 +338,7 @@
     switch (_passwordCodeFieldType) {
         case KYPasswordCodeFieldTypeCustom:
         {
-            //画字
             //字的起点
-        
             CGContextRef context = UIGraphicsGetCurrentContext();
             for (NSInteger i = 0; i < textArray.count; i ++) {
                 NSString *num = textArray[i];

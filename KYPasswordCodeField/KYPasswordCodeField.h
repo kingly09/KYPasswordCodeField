@@ -55,8 +55,16 @@ typedef NS_ENUM(NSInteger,KYPasswordCodeFieldType) {
 // 是否添加下划线的动画,默认NO
 @property (nonatomic, assign) BOOL underLineAnimation;
 
-// 在underLineAnimation为YES时，未输入状态下是否闪烁，YES为闪烁 NO不闪烁
+// 在underLineAnimation为YES时，未输入状态下是否闪烁，YES为闪烁 NO不闪烁, 默认为闪烁
 @property (nonatomic, assign) BOOL noInputAni;
+
+// 是否有边框，默认是YES有边框
+@property (nonatomic, assign) BOOL noBorder;
+
+// 在hasUnderLine为YES时，输入状态后是否隐藏下滑线的，默认是 NO隐藏，YES 为显示
+@property (nonatomic, assign) BOOL inputAfterUnderLineShow;
+
+
 
 //下划线中心点
 @property (nonatomic, assign) CGFloat underLine_center_y;

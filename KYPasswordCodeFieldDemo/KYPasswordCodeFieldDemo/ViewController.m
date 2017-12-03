@@ -45,33 +45,21 @@
   
   NSArray *arr = @[@"普通，下划线 分割线",
                    @"普通，下划线",
+                   @"普通，输入后下划线显示，闪烁",
                    @"密码",
-                   @"密码，分割线"];
+                   @"密码，分割线",
+                   @"密码，输入后下划线显示，闪烁",];
   for (NSInteger i = 0; i < arr.count; i ++) {
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 30 + 110 * i, self.view.frame.size.width, 50)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 30 + 110 * i, self.view.frame.size.width, 40)];
     label.textAlignment = NSTextAlignmentCenter;
     label.text = arr[i];
     [self.view addSubview:label];
     
-    KYPasswordCodeField *v;
-    
-    
-    if (i == 3) {
-    
-      v = [[KYPasswordCodeField alloc] initWithFrame:CGRectMake(30, 80 + 112 * i, self.view.frame.size.width - 60, 60)
-                                                 num:4
-                                           lineColor:[UIColor blackColor]
-                                            textFont:50];
-    }else{
-      
-      v = [[KYPasswordCodeField alloc] initWithFrame:CGRectMake(30, 80 + 110 * i, self.view.frame.size.width - 60, 60)
+    KYPasswordCodeField *v = [[KYPasswordCodeField alloc] initWithFrame:CGRectMake(30, 80 + 110 * i, self.view.frame.size.width - 60, 60)
                                                  num:6
                                            lineColor:[UIColor blackColor]
                                             textFont:50];
-    }
-    
-    
     switch (i) {
       case 0:
       {
@@ -93,19 +81,23 @@
         //分割线
         v.hasSpaceLine = NO;
         
+        
         //输入风格
         v.passwordCodeFieldType = KYPasswordCodeFieldTypeCustom;
       }
         break;
       case 2:
       {
+
+        //闪烁
+        v.underLineAnimation = YES;
         //下划线
-        v.hasUnderLine = NO;
-        //分割线
-        v.hasSpaceLine = NO;
-        
+        v.inputAfterUnderLineShow = YES;
+         //输入之后置空
+        v.emptyEditEnd = YES;
+        v.noInputAni = YES;
         //输入风格
-        v.passwordCodeFieldType = KYPasswordCodeFieldTypeSecret;
+        v.passwordCodeFieldType = KYPasswordCodeFieldTypeCustom;
       }
         break;
       case 3:
@@ -118,7 +110,33 @@
         //输入风格
         v.passwordCodeFieldType = KYPasswordCodeFieldTypeSecret;
       }
+      
+        break;  
+        
+      case 4:
+      {
+        //下划线
+        v.hasUnderLine = NO;
+        //分割线
+        v.hasSpaceLine = YES;
+        
+        //输入风格
+        v.passwordCodeFieldType = KYPasswordCodeFieldTypeSecret;
+      }
+      
         break;
+        
+       case 5:
+      {
+        //下划线
+        v.inputAfterUnderLineShow = YES;
+        //闪烁
+        v.underLineAnimation = YES;
+        v.noInputAni = YES;
+        //输入风格
+        v.passwordCodeFieldType = KYPasswordCodeFieldTypeSecret;
+      }
+         break;
       default:
         break;
     }
