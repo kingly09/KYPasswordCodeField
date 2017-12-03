@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
 s.name         = "KYPasswordCodeField"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "KYPasswordCodeField是一个高定制，易用的密码/验证码输入框类库."
 
 s.homepage     = "https://github.com/kingly09/KYPasswordCodeField"
