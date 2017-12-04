@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC62E7891FD4032A008B4B6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7881FD4032A008B4B6B /* AppDelegate.m */; };
 		BC62E78C1FD4032A008B4B6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E78B1FD4032A008B4B6B /* ViewController.m */; };
 		BC62E78F1FD4032A008B4B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62E78D1FD4032A008B4B6B /* Main.storyboard */; };
 		BC62E7911FD4032A008B4B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC62E7901FD4032A008B4B6B /* Assets.xcassets */; };
@@ -37,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		BC62E7841FD4032A008B4B6B /* KYPasswordCodeFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYPasswordCodeFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC62E7871FD4032A008B4B6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BC62E7881FD4032A008B4B6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC62E78A1FD4032A008B4B6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC62E78B1FD4032A008B4B6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC62E78E1FD4032A008B4B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				BC62E7B91FD4041D008B4B6B /* KYPasswordCodeField */,
-				BC62E7871FD4032A008B4B6B /* AppDelegate.h */,
-				BC62E7881FD4032A008B4B6B /* AppDelegate.m */,
 				BC62E78A1FD4032A008B4B6B /* ViewController.h */,
 				BC62E78B1FD4032A008B4B6B /* ViewController.m */,
 				BC62E78D1FD4032A008B4B6B /* Main.storyboard */,
@@ -283,7 +278,6 @@
 				BC62E78C1FD4032A008B4B6B /* ViewController.m in Sources */,
 				BC62E7971FD4032A008B4B6B /* main.m in Sources */,
 				BC62E7BC1FD4105E008B4B6B /* KYPasswordCodeField.m in Sources */,
-				BC62E7891FD4032A008B4B6B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
