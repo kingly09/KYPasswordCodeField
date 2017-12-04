@@ -15,6 +15,7 @@
 		BC62E7A11FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7A01FD4032A008B4B6B /* KYPasswordCodeFieldDemoTests.m */; };
 		BC62E7AC1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7AB1FD4032B008B4B6B /* KYPasswordCodeFieldDemoUITests.m */; };
 		BC62E7BC1FD4105E008B4B6B /* KYPasswordCodeField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7BB1FD4105E008B4B6B /* KYPasswordCodeField.m */; };
+		BC62E7BF1FD57C5B008B4B6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62E7BE1FD57C5B008B4B6B /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BC62E7AD1FD4032B008B4B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC62E7BA1FD4105E008B4B6B /* KYPasswordCodeField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYPasswordCodeField.h; sourceTree = "<group>"; };
 		BC62E7BB1FD4105E008B4B6B /* KYPasswordCodeField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYPasswordCodeField.m; sourceTree = "<group>"; };
+		BC62E7BD1FD57C5B008B4B6B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC62E7BE1FD57C5B008B4B6B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				BC62E7B91FD4041D008B4B6B /* KYPasswordCodeField */,
 				BC62E78A1FD4032A008B4B6B /* ViewController.h */,
 				BC62E78B1FD4032A008B4B6B /* ViewController.m */,
+				BC62E7BD1FD57C5B008B4B6B /* AppDelegate.h */,
+				BC62E7BE1FD57C5B008B4B6B /* AppDelegate.m */,
 				BC62E78D1FD4032A008B4B6B /* Main.storyboard */,
 				BC62E7901FD4032A008B4B6B /* Assets.xcassets */,
 				BC62E7921FD4032A008B4B6B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC62E7BF1FD57C5B008B4B6B /* AppDelegate.m in Sources */,
 				BC62E78C1FD4032A008B4B6B /* ViewController.m in Sources */,
 				BC62E7971FD4032A008B4B6B /* main.m in Sources */,
 				BC62E7BC1FD4105E008B4B6B /* KYPasswordCodeField.m in Sources */,
