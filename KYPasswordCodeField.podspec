@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
 s.name         = "KYPasswordCodeField"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.summary      = "KYPasswordCodeField是一个高定制，易用的密码/验证码输入框类库."
 
 s.homepage     = "https://github.com/kingly09/KYPasswordCodeField"
@@ -26,7 +26,7 @@ s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/kingly09/KYPasswordCodeField.git", :tag => s.version.to_s }
 s.social_media_url   = "https://github.com/kingly09"
 s.source_files = 'KYPasswordCodeField/**/*'
-s.frameworks   = "UIKit","Foundation"
+s.frameworks   = "UIKit"
 s.requires_arc = true
 
 
